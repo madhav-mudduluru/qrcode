@@ -21,35 +21,3 @@ function App() {
 }
 
 export default App;
-
-/*
-import React from "react";
-import Image from "./image.png";
-import "./App.css";
-
-function App() {
-  return (
-    <div className="bg-gray-500 min-h-screen flex items-center justify-center">
-      <div className="max-w-md mx-auto bg-white rounded-lg p-8">
-        <div className="text-center">
-          <img
-            className="w-32 h-32 mx-auto rounded-full"
-            src={Image}
-            alt="Your Image"
-          />
-        </div>
-        <h2 className="text-xl font-semibold text-center mt-4">
-          Improve your front-end skills by building projects
-        </h2>
-        <p className="text-center mt-4">
-          Scan the QR code to visit FrontendMentor and take your coding skills
-          to the next level.
-        </p>
-      </div>
-    </div>
-  );
-}
-
-export default App;
-
-*/
