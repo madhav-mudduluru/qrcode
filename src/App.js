@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import Image from "./image.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="bg-gray-500 min-h-screen flex items-center justify-center">
+      <div className="max-w-sm mx-auto bg-white rounded-2xl">
+        <div className=" flex justify-center">
+          <img className="mt-8 max-w-xs max-h-xs rounded-2xl " src={Image} />
+        </div>
+        <h2 className="pt-5 text-xl mx-16 font-semibold text-center">
+          Improve your front-end skills by building projects
+        </h2>
+        <p className="pt-5 pb-10 mx-16 text-center ">
+          Scan the QR code to vist front-endmentor and take your coding skills
+          to the next level
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+/*
+import React from "react";
+import Image from "./image.png";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="bg-gray-500 min-h-screen flex items-center justify-center">
+      <div className="max-w-md mx-auto bg-white rounded-lg p-8">
+        <div className="text-center">
+          <img
+            className="w-32 h-32 mx-auto rounded-full"
+            src={Image}
+            alt="Your Image"
+          />
+        </div>
+        <h2 className="text-xl font-semibold text-center mt-4">
+          Improve your front-end skills by building projects
+        </h2>
+        <p className="text-center mt-4">
+          Scan the QR code to visit FrontendMentor and take your coding skills
+          to the next level.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+*/
